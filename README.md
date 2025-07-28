@@ -1,4 +1,4 @@
-# Simple React Full Stack - Test Automation Demo
+# Automated-UI-API-Testing-for-simple-react-full-stack
 
 ## Setup Instructions
 
@@ -30,9 +30,9 @@
    npm run test:api
    ```
  6. **Run coverage reporting:**
-    ```
- npm run test:coverage     
-  ```
+   ```
+   npm run test:coverage 
+   ```
 ## API Test Results
 
 All API endpoint tests passed successfully.
