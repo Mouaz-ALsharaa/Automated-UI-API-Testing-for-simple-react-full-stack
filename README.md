@@ -4,7 +4,7 @@
 
 1. **Clone the repository:**
    ```
-   git clone <your-repo-url>
+   git clone <https://github.com/Mouaz-ALsharaa/Automated-UI-API-Testing-for-simple-react-full-stack.git>
    cd simple-react-full-stack
    ```
 
