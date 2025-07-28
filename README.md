@@ -39,3 +39,8 @@
 **Notes:**  
 - Chrome browser is required for UI tests.
 - All tests and code are self-contained; no database setup needed.
+
+---
+## Test Plan
+
+For details about the test strategy, coverage, tools, and instructions, please refer to the file [`TEST_PLAN.md`](./TEST_PLAN.md) included in the project.
