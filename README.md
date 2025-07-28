@@ -1,4 +1,4 @@
-# Simple React Full Stack - Test Automation Demo
+# Automated-UI-API-Testing-for-simple-react-full-stack
 
 ## Setup Instructions
 
