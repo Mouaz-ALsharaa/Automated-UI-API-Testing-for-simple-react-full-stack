@@ -56,10 +56,9 @@
   npm run test:api
   ```
 - **Run coverage reporting:**
-    ```
- npm run test:coverage     
   ```
-
+  npm run test:coverage     
+  ```
 ---
 
 ## 5. Assumptions or Limitations
