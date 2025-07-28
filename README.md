@@ -29,6 +29,23 @@
    ```
    npm run test:api
    ```
+ 6. **Run coverage reporting:**
+    ```
+ npm run test:coverage     
+  ```
+## API Test Results
+
+All API endpoint tests passed successfully.
+
+| File      | % Statements | % Branches | % Functions | % Lines |
+|-----------|-------------|------------|-------------|---------|
+| index.js  |    93.02%   |   68.75%   |    80%      | 97.14%  |
+
+- **Test Suites:** 1 passed, 1 total
+- **Tests:** 9 passed, 9 total
+
+> Code coverage was measured using Jest.
+> All endpoints (login, items CRUD) are covered with positive and negative cases.
 
 ---
 

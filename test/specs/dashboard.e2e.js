@@ -7,6 +7,7 @@ describe('Dashboard Cases', () => {
     it('should not access dashboard without login', async () => {
         await DashboardPage.open();
         await expect(MainPage.btnLogin).toBeExisting();
+        await browser.saveScreenshot('./screenshots/access-denied.png');
     });
 
     it('should logout successfully', async () => {
@@ -23,6 +24,7 @@ describe('Dashboard Cases', () => {
         const value = 'Test Item ' + Date.now();
         await DashboardPage.inputValue.setValue(value);
         await DashboardPage.btnAdd.click();
+        await browser.saveScreenshot('./screenshots/item-added.png');
         await expect(await DashboardPage.getItemByValue(value)).toBeExisting();
     });
 
@@ -36,6 +38,7 @@ describe('Dashboard Cases', () => {
         const newValue = value + ' Edited';
         await DashboardPage.inputValue.setValue(newValue);
         await DashboardPage.btnEdit.click();
+        await browser.saveScreenshot('./screenshots/item-edited.png');
         await expect(await DashboardPage.getItemByValue(newValue)).toBeExisting();
     });
 
@@ -45,7 +48,9 @@ describe('Dashboard Cases', () => {
         const value = 'Item to Delete ' + Date.now();
         await DashboardPage.inputValue.setValue(value);
         await DashboardPage.btnAdd.click();
+        await browser.saveScreenshot('./screenshots/item-added-before-delete.png');
         await DashboardPage.getDeleteButtonByValue(value).click();
+        await browser.saveScreenshot('./screenshots/item-deleted.png');
         await expect(await DashboardPage.getItemByValue(value)).not.toBeExisting();
     });
 

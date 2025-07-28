@@ -12,7 +12,8 @@
     "wdio": "wdio run ./wdio.conf.js",
     "login": "npx wdio run wdio.conf.js --suite login",
     "dashboard": "npx wdio run wdio.conf.js --suite dashboard",
-    "test:api": "jest test/specs/api.e2e.test.js"
+    "test:api": "jest test/specs/api.e2e.test.js",
+     "test:coverage": "jest --coverage"
   },
   "author": "Sandeep Raveesh",
   "license": "ISC",
