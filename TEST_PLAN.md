@@ -55,6 +55,10 @@
   ```
   npm run test:api
   ```
+- **Run coverage reporting:**
+    ```
+ npm run test:coverage     
+  ```
 
 ---
 
@@ -65,3 +69,4 @@
 - No advanced validation or security implemented (for simplicity).
 - Tests assume the app runs locally on default ports.
 - UI tests require
+- Screenshots have been added in ./screenshots/
