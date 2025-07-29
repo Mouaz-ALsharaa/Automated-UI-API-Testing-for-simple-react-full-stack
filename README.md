@@ -5,8 +5,7 @@
 1. **Clone the repository:**
    ```
    git clone <https://github.com/Mouaz-ALsharaa/Automated-UI-API-Testing-for-simple-react-full-stack.git>
-
-cd Automated-UI-API-Testing-for-simple-react-full-stack
+   cd Automated-UI-API-Testing-for-simple-react-full-stack
    ```
 
 2. **Install dependencies:**
